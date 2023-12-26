@@ -1,0 +1,11 @@
+clc;
+f1=[2,4,4,2;4,6,8,3;2,8,10,4;3,8,6,2];
+disp("Saail Chavan 016");
+F1=dct(f1);
+disp(F1,"Discrete cosine Transformation");
+subplot(221);
+imshow(f1);
+title("Image in spatial domain (Saail.Chavan 016)");
+subplot(223);
+imshow(F1);
+title("Image in Frequency");
